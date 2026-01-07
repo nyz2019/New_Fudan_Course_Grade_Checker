@@ -457,7 +457,7 @@ def main():
 
     new_grades_data = crawl_grades()
     if new_grades_data:
-        format_grades(new_grades_data)
+        # format_grades(new_grades_data)
         compare_and_notify(new_grades_data)
 
 if __name__ == "__main__":
